@@ -1,0 +1,70 @@
+---
+api: POST https://{regionAndDomain}.com/api/query/cohorts/list
+contentType: application/json
+title: "List Saved Cohorts"
+description: "The list endpoint returns all of the cohorts in a given project. The JSON formatted return contains the cohort name, id, count, description, creation date, and visibility for every cohort in the project."
+---
+
+
+If you're trying to get a list of users in a cohort, you can use the [`/engage` endpoint with the `filter_by_cohort` parameter](https://developer.mixpanel.com/reference/engage#engage-query).
+The Query API has a rate limit of 60 queries per hour and a maximum of 5 concurrent queries.
+
+The list endpoint returns all of the cohorts in a given project. The JSON formatted return contains the cohort name, id, count, description, creation date, and visibility for every cohort in the project.
+
+If you're trying to get a list of users in a cohort, you can use the [`/engage` endpoint with the `filter_by_cohort` parameter](https://developer.mixpanel.com/reference/engage#engage-query).
+
+## Query Params
+
+<ParamField body="project_id" type="integer" required>
+  Required if using service account to authenticate request.
+</ParamField>
+
+<ParamField body="workspace_id" type="integer">
+  The id of the workspace if applicable.
+</ParamField>
+
+## Response
+
+<ResponseField name="200" type="object[]">
+  **Success**
+  <Expandable title="Object Properties">
+    <ResponseField name="count" type="integer" />
+    <ResponseField name="is_visible" type="integer">
+      0 if not visible. 1 if visible
+    </ResponseField>
+    <ResponseField name="description" type="string" />
+    <ResponseField name="created" type="string" />
+    <ResponseField name="project_id" type="integer" />
+    <ResponseField name="id" type="integer" />
+    <ResponseField name="name" type="string" />
+  </Expandable>
+</ResponseField>
+
+<ResponseExample>
+
+```json 200
+
+[
+  {
+    "count": 150,
+    "is_visible": 1,
+    "description": "This cohort is visible, has an id = 1000, and currently has 150 users.",
+    "created": "2019-03-19 23:49:51",
+    "project_id": 1,
+    "id": 1000,
+    "name": "Cohort One"
+  },
+  {
+    "count": 25,
+    "is_visible": 0,
+    "description": "This cohort isn't visible, has an id = 2000, and currently has 25 users.",
+    "created": "2019-04-02 23:22:01",
+    "project_id": 1,
+    "id": 2000,
+    "name": "Cohort Two"
+  }
+]
+
+```
+
+</ResponseExample>
