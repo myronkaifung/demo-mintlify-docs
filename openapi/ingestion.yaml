@@ -47,7 +47,7 @@ paths:
         - ProjectSecret: []
         - OAuthToken: []
       summary: Import Events
-      description: ""
+      description: My description of what import API does.
       parameters:
         - in: query
           name: strict
