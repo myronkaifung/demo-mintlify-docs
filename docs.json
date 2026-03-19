@@ -267,5 +267,10 @@
       "github": "https://github.com/mixpanel",
       "linkedin": "https://www.linkedin.com/company/mixpanel-inc-/"
     }
+  },
+  "api": {
+    "playground": {
+      "display": "interactive"
+    }
   }
 }
