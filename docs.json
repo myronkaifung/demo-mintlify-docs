@@ -36,7 +36,8 @@
       "mcp",
       "cursor",
       "vscode"
-    ]
+    ],
+    "display": "toc"
   },
   "favicon": "/favicon.png",
   "navigation": {
