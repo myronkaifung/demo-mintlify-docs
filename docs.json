@@ -35,7 +35,13 @@
       "grok",
       "mcp",
       "cursor",
-      "vscode"
+      "vscode",
+      {
+        "title": "Contact Support",
+        "description": "Still have questions? Reach out to the Support team for additional help.",
+        "icon": "plus",
+        "href": "https://www.mixpanel.com/get-support/"
+            }
     ],
     "display": "toc"
   },
