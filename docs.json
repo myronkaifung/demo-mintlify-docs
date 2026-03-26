@@ -82,7 +82,8 @@
                 "pages": [
                   "docs/tracking-methods",
                   "docs/tracking-methods/choosing-the-right-method",
-                  "docs/tracking-methods/autocapture"
+                  "docs/tracking-methods/autocapture",
+                  "docs/tracking-methods/javascript-sdk-demo"
                 ]
               },
               {
