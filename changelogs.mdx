@@ -5,6 +5,29 @@ description: "Documentation for Changelogs"
 
 import {Button} from "/snippets/button.mdx";
 
+<Update label="March 30, 2026">
+## Interactive API playground, JavaScript SDK docs, and Ingestion API updates
+
+### Interactive API playground
+
+You can now test Mixpanel API endpoints directly from the docs. The interactive playground lets you make real requests, see responses, and experiment with parameters — no separate tool needed.
+
+Try it out in the [API Docs](/reference/overview).
+
+### JavaScript SDK reference
+
+A comprehensive [JavaScript SDK reference](/docs/tracking-methods/javascript-sdk-demo) is now available, covering installation (via CDN snippet or NPM), event tracking, user identification, group analytics, and configuration options. Whether you're setting up Mixpanel for the first time or fine-tuning an existing implementation, everything you need is in one place.
+
+### Ingestion API documentation updates
+
+The [Import Events](/reference/ingestion-api) endpoint documentation now clearly specifies:
+
+- **Batch limits:** up to 2,000 events and 10 MB uncompressed per request
+- **Supported content types:** `application/json` and `application/x-ndjson`
+
+These details help you optimize your server-side event imports and avoid request failures.
+</Update>
+
 <Update label="January 30, 2026">
 ## Custom Alerts via webhook
 
