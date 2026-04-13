@@ -47,6 +47,25 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "About Us",
+          "icon": "circle-question",
+          "href": "https://mixpanel.com/about"
+        },
+        {
+          "anchor": "Community",
+          "icon": "users",
+          "href": "https://community.mixpanel.com/"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://mixpanel.com/blog"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Docs",
@@ -57,6 +76,7 @@
             "pages": [
               "docs/what-is-mixpanel",
               "docs/what-to-track",
+              "docs/some-page",
               {
                 "group": "Quickstart",
                 "pages": [
@@ -208,17 +228,17 @@
           },
           {
             "group": "Ingestion API",
+            "openapi": "openapi/ingestion.yaml",
             "pages": [
               "reference/ingestion-api"
-            ],
-            "openapi": "openapi/ingestion.yaml"
+            ]
           },
           {
             "group": "Query API",
+            "openapi": "openapi/query.yaml",
             "pages": [
               "reference/query-api"
-            ],
-            "openapi": "openapi/query.yaml"
+            ]
           },
           {
             "group": "Identity API",
@@ -226,26 +246,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "About Us",
-          "href": "https://mixpanel.com/about",
-          "icon": "circle-question"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://community.mixpanel.com/",
-          "icon": "users"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mixpanel.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
