@@ -76,6 +76,7 @@
             "pages": [
               "docs/what-is-mixpanel",
               "docs/what-to-track",
+              "docs/some-page",
               {
                 "group": "Quickstart",
                 "pages": [
@@ -89,8 +90,7 @@
                     ]
                   }
                 ]
-              },
-              "docs/some-page"
+              }
             ]
           },
           {
