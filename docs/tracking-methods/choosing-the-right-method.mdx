@@ -8,7 +8,7 @@ We recommend tracking everything you possibly can via your servers, and only sup
 Note: If you already track events via a CDP, Tag Manager, or via your DWH using something like Snowplow, you can route those events to Mixpanel with our native integrations. See the [Segment](https://segment.com/docs/connections/destinations/catalog/actions-mixpanel/), [Rudderstack](https://rudderstack.com/integration/mixpanel/), or [GTM](https://github.com/mixpanel/mixpanel-gtm-template#readme) docs for a walkthrough. We can also load data directly from data warehouses like [Snowflake](https://docs.mixpanel.com/docs/data-pipelines/integrations/snowflake) and [BigQuery](https://docs.mixpanel.com/docs/data-pipelines/integrations/bigquery).
 
 <Frame>
-![client-side vs server-side](https://docs.mixpanel.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftracking_methods.936d7561.webp&w=3840&q=75)
+  ![client-side vs server-side](https://docs.mixpanel.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftracking_methods.936d7561.webp&w=3840&q=75)
 </Frame>
 
 ## Server-Side Tracking
@@ -29,11 +29,20 @@ In this method, you send events from your servers to Mixpanel. For example, when
 **Server-Side SDKs**
 
 <Columns cols={2}>
-<Card title="Python" icon="python" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/python" horizontal/>
-<Card title="Node.js" icon="js" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/nodejs" horizontal/>
-<Card title="PHP" icon="php" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/php" horizontal/>
-<Card title="Go" icon="google" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/go" horizontal/>
-<Card title="Java" icon="java" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/java" horizontal/>
+  <Card title="Python" icon="python" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/python">
+  </Card>
+
+  <Card title="Node.js" icon="js" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/nodejs">
+  </Card>
+
+  <Card title="PHP" icon="php" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/php">
+  </Card>
+
+  <Card title="Go" icon="google" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/go">
+  </Card>
+
+  <Card title="Java" icon="java" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/java">
+  </Card>
 </Columns>
 
 ## Client-Side Tracking
@@ -55,20 +64,34 @@ In this method, events are generated on the client device and sent to the Mixpan
 **Client-Side SDKs**
 
 <Columns cols={2}>
-<Card title="Javascript" icon="js" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/javascript" horizontal/>
-<Card title="React Native" icon="react" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/react-native" horizontal/>
-<Card title="Android" icon="android" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/android" horizontal/>
-<Card title="Objective C" icon="apple" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/ios" horizontal/>
-<Card title="Swift" icon="swift" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/swift" horizontal/>
-<Card title="Flutter" icon="flutter" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/flutter" horizontal/>
-<Card title="Unity" icon="unity" iconType="solid" href="https://docs.mixpanel.com/docs/tracking-methods/sdks/unity" horizontal/>
+  <Card title="Javascript" icon="js" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/javascript">
+  </Card>
+
+  <Card title="React Native" icon="react" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/react-native">
+  </Card>
+
+  <Card title="Android" icon="android" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/android">
+  </Card>
+
+  <Card title="Objective C" icon="apple" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/ios">
+  </Card>
+
+  <Card title="Swift" icon="swift" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/swift">
+  </Card>
+
+  <Card title="Flutter" icon="flutter" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/flutter">
+  </Card>
+
+  <Card title="Unity" icon="unity" iconType="solid" horizontal href="https://docs.mixpanel.com/docs/tracking-methods/sdks/unity">
+  </Card>
 </Columns>
 
 <Note>
-Mixpanel client-side SDK uses [/track API endpoint](https://developer.mixpanel.com/reference/track-event#limits) which by default only ingests events in the last 5 days.
+  Mixpanel client-side SDK uses [/track API endpoint](https://developer.mixpanel.com/reference/track-event#limits) which by default only ingests events in the last 5 days.
 </Note>
 
 ### Client-Side Tracking via a Proxy
 
 A proxy is helpful in a client-side web setting to [reduce the likelihood of ad-blockers impacting your tracking](https://www.youtube.com/watch?v=8Pv6tmRfqr8). Please see [this article](https://docs.mixpanel.com/docs/tracking-methods/sdks/javascript#tracking-via-proxy) on how to set up a proxy.
 
+And [add a new link](https://docs.mixpanel.com/docs/what-to-track)
