@@ -69,6 +69,7 @@
     "products": [
       {
         "product": "Product A",
+        "description": "product A testing",
         "tabs": [
           {
             "group": "Intro",
@@ -162,6 +163,7 @@
       },
       {
         "product": "Product B",
+        "description": "product B testing",
         "tabs": [
           {
             "tab": "Guides",
