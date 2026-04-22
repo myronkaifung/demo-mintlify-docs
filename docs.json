@@ -57,6 +57,7 @@
             "pages": [
               "docs/what-is-mixpanel",
               "docs/what-to-track",
+              "docs/featureflag",
               {
                 "group": "Quickstart",
                 "pages": [
