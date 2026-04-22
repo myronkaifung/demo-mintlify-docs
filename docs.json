@@ -71,8 +71,12 @@
         "product": "Product A",
         "tabs": [
           {
-            "tab": "Docs",
-            "groups": [
+            "group": "Intro",
+            "icon": "https://mintlify-assets.b-cdn.net/wave.svg",
+            "pages": [
+              "docs/what-is-mixpanel",
+              "docs/what-to-track",
+              "docs/featureflag",
               {
                 "group": "Intro",
                 "icon": "https://mintlify-assets.b-cdn.net/wave.svg",
