@@ -149,6 +149,17 @@
             ]
           },
           {
+            "tab": "Changelog",
+            "pages": [
+              "changelogs"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Product B",
+        "tabs": [
+          {
             "tab": "Guides",
             "groups": [
               {
@@ -212,17 +223,6 @@
               }
             ]
           },
-          {
-            "tab": "Changelog",
-            "pages": [
-              "changelogs"
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Product B",
-        "tabs": [
           {
             "tab": "API Docs",
             "pages": [
