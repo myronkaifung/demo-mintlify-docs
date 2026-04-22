@@ -47,205 +47,215 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Docs",
-        "groups": [
-          {
-            "group": "Intro",
-            "icon": "https://mintlify-assets.b-cdn.net/wave.svg",
-            "pages": [
-              "docs/what-is-mixpanel",
-              "docs/what-to-track",
-              {
-                "group": "Quickstart",
-                "pages": [
-                  "docs/quickstart",
-                  "docs/quickstart/identify-users",
-                  {
-                    "group": "Capture Events",
-                    "pages": [
-                      "docs/quickstart/capture-events",
-                      "docs/quickstart/capture-events/autocapture"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Data in",
-            "icon": "https://mintlify-assets.b-cdn.net/data-in.svg",
-            "pages": [
-              {
-                "group": "Tracking Methods",
-                "pages": [
-                  "docs/tracking-methods",
-                  "docs/tracking-methods/choosing-the-right-method",
-                  "docs/tracking-methods/autocapture",
-                  "docs/tracking-methods/javascript-sdk-demo"
-                ]
-              },
-              {
-                "group": "Data Structure",
-                "pages": [
-                  "docs/data-structure",
-                  "docs/data-structure/concepts",
-                  "docs/data-structure/events-and-properties"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Admin",
-            "icon": "https://mintlify-assets.b-cdn.net/admin.svg",
-            "pages": [
-              {
-                "group": "Orgs & Projects",
-                "pages": [
-                  "docs/orgs-and-projects",
-                  "docs/orgs-and-projects/organizations"
-                ]
-              },
-              {
-                "group": "Data Governance",
-                "pages": [
-                  "docs/data-governance",
-                  "docs/data-governance/event-approval",
-                  "docs/data-governance/data-volume-monitoring"
-                ]
-              },
-              {
-                "group": "Privacy",
-                "pages": [
-                  "docs/privacy",
-                  "docs/privacy/gdpr-compliance"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Discover",
-            "icon": "https://mintlify-assets.b-cdn.net/flower.svg",
-            "pages": [
-              "guides/mixpanel-introduction",
-              "guides/what-is-new"
-            ]
-          },
-          {
-            "group": "Workflows",
-            "icon": "https://mintlify-assets.b-cdn.net/rocket.svg",
-            "pages": [
-              {
-                "group": "Guides by Workflow",
-                "pages": [
-                  "guides/guides-by-workflow/build-tracking-strategy"
-                ]
-              },
-              {
-                "group": "Guides by Topic",
-                "pages": [
-                  {
-                    "group": "Core Reports",
-                    "pages": [
-                      "guides/guides-by-topic/core-reports",
-                      "guides/guides-by-topic/core-reports/create-boards",
-                      "guides/guides-by-topic/core-reports/discover-insights",
-                      "guides/guides-by-topic/core-reports/analyze-conversions"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Playbooks",
-            "icon": "https://mintlify-assets.b-cdn.net/note.svg",
-            "pages": [
-              "guides/benchmarks",
-              {
-                "group": "Strategic Playbooks",
-                "pages": [
-                  {
-                    "group": "Onboarding Playbook",
-                    "pages": [
-                      "guides/strategic-playbooks/onboarding-playbook",
-                      {
-                        "group": "Launch",
-                        "pages": [
-                          "guides/strategic-playbooks/onboarding-playbook/launch/train-users"
-                        ]
-                      },
-                      "guides/beyond-onboarding"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "pages": [
-          "changelogs"
-        ]
-      },
-      {
-        "tab": "API Docs",
-        "pages": [
-          {
-            "group": "Mixpanel APIs",
-            "pages": [
-              "reference/overview",
-              "reference/rate-limits"
-            ]
-          },
-          {
-            "group": "Ingestion API",
-            "pages": [
-              "reference/ingestion-api"
-            ],
-            "openapi": "openapi/ingestion.yaml"
-          },
-          {
-            "group": "Query API",
-            "pages": [
-              "reference/query-api"
-            ],
-            "openapi": "openapi/query.yaml"
-          },
-          {
-            "group": "Identity API",
-            "openapi": "openapi/identity.yaml"
-          }
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
           "anchor": "About Us",
-          "href": "https://mixpanel.com/about",
-          "icon": "circle-question"
+          "icon": "circle-question",
+          "href": "https://mixpanel.com/about"
         },
         {
           "anchor": "Community",
-          "href": "https://community.mixpanel.com/",
-          "icon": "users"
+          "icon": "users",
+          "href": "https://community.mixpanel.com/"
         },
         {
           "anchor": "Blog",
-          "href": "https://mixpanel.com/blog",
-          "icon": "newspaper"
+          "icon": "newspaper",
+          "href": "https://mixpanel.com/blog"
         }
       ]
-    }
+    },
+    "products": [
+      {
+        "product": "Product A",
+        "tabs": [
+          {
+            "tab": "Docs",
+            "groups": [
+              {
+                "group": "Intro",
+                "icon": "https://mintlify-assets.b-cdn.net/wave.svg",
+                "pages": [
+                  "docs/what-is-mixpanel",
+                  "docs/what-to-track",
+                  {
+                    "group": "Quickstart",
+                    "pages": [
+                      "docs/quickstart",
+                      "docs/quickstart/identify-users",
+                      {
+                        "group": "Capture Events",
+                        "pages": [
+                          "docs/quickstart/capture-events",
+                          "docs/quickstart/capture-events/autocapture"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Data in",
+                "icon": "https://mintlify-assets.b-cdn.net/data-in.svg",
+                "pages": [
+                  {
+                    "group": "Tracking Methods",
+                    "pages": [
+                      "docs/tracking-methods",
+                      "docs/tracking-methods/choosing-the-right-method",
+                      "docs/tracking-methods/autocapture",
+                      "docs/tracking-methods/javascript-sdk-demo"
+                    ]
+                  },
+                  {
+                    "group": "Data Structure",
+                    "pages": [
+                      "docs/data-structure",
+                      "docs/data-structure/concepts",
+                      "docs/data-structure/events-and-properties"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Admin",
+                "icon": "https://mintlify-assets.b-cdn.net/admin.svg",
+                "pages": [
+                  {
+                    "group": "Orgs & Projects",
+                    "pages": [
+                      "docs/orgs-and-projects",
+                      "docs/orgs-and-projects/organizations"
+                    ]
+                  },
+                  {
+                    "group": "Data Governance",
+                    "pages": [
+                      "docs/data-governance",
+                      "docs/data-governance/event-approval",
+                      "docs/data-governance/data-volume-monitoring"
+                    ]
+                  },
+                  {
+                    "group": "Privacy",
+                    "pages": [
+                      "docs/privacy",
+                      "docs/privacy/gdpr-compliance"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Discover",
+                "icon": "https://mintlify-assets.b-cdn.net/flower.svg",
+                "pages": [
+                  "guides/mixpanel-introduction",
+                  "guides/what-is-new"
+                ]
+              },
+              {
+                "group": "Workflows",
+                "icon": "https://mintlify-assets.b-cdn.net/rocket.svg",
+                "pages": [
+                  {
+                    "group": "Guides by Workflow",
+                    "pages": [
+                      "guides/guides-by-workflow/build-tracking-strategy"
+                    ]
+                  },
+                  {
+                    "group": "Guides by Topic",
+                    "pages": [
+                      {
+                        "group": "Core Reports",
+                        "pages": [
+                          "guides/guides-by-topic/core-reports",
+                          "guides/guides-by-topic/core-reports/create-boards",
+                          "guides/guides-by-topic/core-reports/discover-insights",
+                          "guides/guides-by-topic/core-reports/analyze-conversions"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Playbooks",
+                "icon": "https://mintlify-assets.b-cdn.net/note.svg",
+                "pages": [
+                  "guides/benchmarks",
+                  {
+                    "group": "Strategic Playbooks",
+                    "pages": [
+                      {
+                        "group": "Onboarding Playbook",
+                        "pages": [
+                          "guides/strategic-playbooks/onboarding-playbook",
+                          {
+                            "group": "Launch",
+                            "pages": [
+                              "guides/strategic-playbooks/onboarding-playbook/launch/train-users"
+                            ]
+                          },
+                          "guides/beyond-onboarding"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Changelog",
+            "pages": [
+              "changelogs"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Product B",
+        "tabs": [
+          {
+            "tab": "API Docs",
+            "pages": [
+              {
+                "group": "Mixpanel APIs",
+                "pages": [
+                  "reference/overview",
+                  "reference/rate-limits"
+                ]
+              },
+              {
+                "group": "Ingestion API",
+                "openapi": "openapi/ingestion.yaml",
+                "pages": [
+                  "reference/ingestion-api"
+                ]
+              },
+              {
+                "group": "Query API",
+                "openapi": "openapi/query.yaml",
+                "pages": [
+                  "reference/query-api"
+                ]
+              },
+              {
+                "group": "Identity API",
+                "openapi": "openapi/identity.yaml"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
