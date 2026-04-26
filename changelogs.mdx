@@ -5,6 +5,28 @@ description: "Documentation for Changelogs"
 
 import {Button} from "/snippets/button.mdx";
 
+<Update label="March 21, 2026">
+## Interactive API playground
+
+You can now test Mixpanel API calls directly from the docs. The [Ingestion API](/reference/ingestion-api) reference pages include a built-in playground where you can construct requests, set parameters, and see responses without leaving the browser.
+
+This makes it faster to explore endpoints, debug integrations, and validate payloads during development.
+
+## In-context support access
+
+A **Contact Support** option is now available in the context menu on every docs page. If you have a question while reading the docs, you can reach the [Support team](https://www.mixpanel.com/get-support/) in one click — no need to navigate away.
+
+## Ingestion API: batch limits and content types
+
+The [Import Events](/reference/ingestion-api) endpoint documentation now clearly states the per-request limits:
+
+- **2,000 events** maximum per batch
+- **10 MB** uncompressed size limit
+- Supported content types: `application/json` and `application/x-ndjson`
+
+If you're building a server-side integration, these details help you size your batches correctly and avoid rejected requests.
+</Update>
+
 <Update label="January 30, 2026">
 ## Custom Alerts via webhook
 
