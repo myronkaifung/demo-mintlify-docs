@@ -5,6 +5,22 @@ description: "Documentation for Changelogs"
 
 import {Button} from "/snippets/button.mdx";
 
+<Update label="April 27, 2026">
+## Feature Flags: Roll out features with precision control
+
+Feature Flags are now available, giving you fine-grained control over who sees a feature and when. Use them to gradually roll out changes, target specific cohorts, kill-switch risky functionality instantly, and serve variants for A/B/x tests with Mixpanel Experiments.
+
+### What's new
+
+- **Multiple flag types**: Use Feature Gates to toggle features on or off, Experiments to measure variant impact with statistical rigor, and Dynamic Config to ship JSON payloads that update instantly without redeploying code.
+- **Flexible targeting**: Combine cohort-based targeting with runtime filters like URL path, app version, or event-based triggers. Filters are joined with AND conditions across targeting criteria.
+- **Rollout groups**: Configure up to 5 rollout groups per flag with their own filters, variant splits, and rollout percentages. Support for up to 5 variants per flag.
+- **Sticky variants**: Keep the same entity on the same variant over time, with control variants kept non-sticky so allocation can be safely increased.
+- **Governance built in**: Scope flags to Data Views, manage per-flag share settings, and rely on project roles (Analyst and above to edit, Consumer to view).
+
+Learn more in the [Feature Flags documentation](/docs/featureflag).
+</Update>
+
 <Update label="January 30, 2026">
 ## Custom Alerts via webhook
 
